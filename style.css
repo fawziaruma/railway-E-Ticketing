@@ -1,0 +1,189 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.menubar{
+    margin-right: 50px;
+    padding: 10px;
+    
+}
+.menubar a{
+    font-size: 17px;
+    
+}
+.left{
+    margin-left: 50px;
+}
+#home{
+    border-bottom: 2px solid black;
+}
+#left:hover{
+    border-bottom: 2px solid black;
+
+}
+.left span{
+    color: #DA924E;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* .........form....... */
+.user-detail ::placeholder{
+    font-size: 15px;
+}
+.user-detail{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    width: 150px;
+    gap: 20px;
+}
+.main-image img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+   margin-top: 50px;
+}
+.t-btn{
+    margin-top: 20px;
+    width: 490px;
+    padding: 5px;
+    background-color: #006747;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    
+}
+.t-btn:hover{
+    background-color: #08543c;
+}
+/* .......card.......... */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.card-3{
+    margin-top: 20px;
+    font-size: 15px;
+}
+/* .........card-2...... */
+.card-2{
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px;
+    margin: 60px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.p-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #023623
+}
+.text{
+    color: #023623;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+}
+.fa{
+    width:25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #08543c;
+    border: none;
+    color: white;
+}
+#logo{
+    margin-top: 40px;
+}
+.bkash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+.bkash img{
+    width: 70px;
+    height: 50px;
+   margin: 10px;
+}
+/* .....content....... */
+.content{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 40px;
+    line-height: 23px;
+    text-align: center;
+    color: #333
+    
+}
+.foo{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 80px;
+
+    
+    
+    
+    
+}
+footer{
+    border-top: 2px solid #006747;
+    width: 100%; 
+}
+.team a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #08543c;
+}
+.powred p{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    line-height: 23px;
+    color: #000000
+}
+.company{
+    font-size: 22px;
+    font-weight: bold;
+    color: #006747;
+}
+
+.f-logo span{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #DA924E
+    
+}
+.f-logo p{
+    font-size: 13px;
+    text-align: center;
+    color: #006747;
+    font-weight: 400;
+    
+}
